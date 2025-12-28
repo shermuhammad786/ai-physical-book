@@ -1,55 +1,84 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+version_change: "N/A -> 1.0.0"
+modified_principles: []
+added_sections:
+  - Vision
+  - Core Principles
+  - Success Criteria
+  - Constraints
+  - Stakeholders
+  - Brand Voice
+removed_sections:
+  - PRINCIPLE_1_NAME
+  - PRINCIPLE_2_NAME
+  - PRINCIPLE_3_NAME
+  - PRINCIPLE_4_NAME
+  - PRINCIPLE_5_NAME
+  - PRINCIPLE_6_NAME
+templates_updated:
+  - path: ".specify/templates/plan-template.md"
+    status: "⚠ pending"
+  - path: ".specify/templates/spec-template.md"
+    status: "⚠ pending"
+  - path: ".specify/templates/tasks-template.md"
+    status: "⚠ pending"
+todos: []
+---
+-->
+# Physical AI Book Constitution
+
+## Vision
+To empower individuals of all skill levels to understand, create, and innovate in the field of Physical AI, making robotics and intelligent systems accessible to everyone.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Hands-On First
+Every concept must be accompanied by practical, hands-on exercises and projects that readers can build and experiment with. Learning by doing is paramount.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Beginner-Friendly
+The material must be presented in a way that is accessible to beginners with no prior experience in AI or robotics. Concepts should be built up from first principles.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Clarity and Simplicity
+Use clear, concise language and avoid unnecessary jargon. Prioritize simple explanations and intuitive examples over complex academic formalities.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Modular and Extensible
+The content and projects should be structured in a modular way, allowing readers to easily build upon their knowledge and extend the projects for their own purposes.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Open Source Commitment
+All code, examples, and documentation are to be licensed under a permissive open-source license (e.g., MIT or Apache 2.0) to encourage community contribution and broad adoption.
 
-### [PRINCIPLE_6_NAME]
+### Tech Stack Adherence
+All documentation and web-based materials will be built using Docusaurus to ensure a consistent, high-quality, and maintainable reader experience.
 
+## Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
+*   **High Reader Engagement:** Measured by the number of community contributions, project forks, and active discussions in community forums.
+*   **Positive Reader Feedback:** Consistently high ratings and positive reviews on platforms where the book is distributed.
+*   **Educational Adoption:** The book and its materials are used as a teaching resource in at least one educational institution or workshop.
+*   **Project Showcase:** A vibrant gallery of projects built by readers, demonstrating the practical application of the book's teachings.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+*   **Scope:** The book will focus exclusively on "Physical AI" and will not deviate into purely software-based AI topics unless they are directly relevant to a physical system.
+*   **Technology:** The primary platform for documentation and online content is Docusaurus. All code examples will be in Python unless a different language is strictly required for a specific hardware interaction.
+*   **Audience Level:** The content must remain accessible to a beginner-to-intermediate audience. Advanced topics should be clearly marked and presented as optional extensions.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Stakeholders
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+*   **Primary Audience:** Beginners and intermediate learners in software development, engineering, and hobbyist electronics.
+*   **Authors & Contributors:** The core team responsible for creating and maintaining the content.
+*   **Community:** The readers, learners, and contributors who engage with the material, provide feedback, and build upon the projects.
+*   **Sponsors (if any):** Organizations or individuals providing financial or material support to the project.
+
+## Brand Voice
+
+*   **Authoritative yet Approachable:** The tone should be knowledgeable and credible, but also friendly, encouraging, and patient.
+*   **Inspirational:** Motivate readers by showcasing the exciting possibilities of Physical AI and celebrating their progress.
+*   **Practical and Direct:** Focus on what works and provide clear, step-by-step instructions. Avoid hype and overly theoretical discussions.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the single source of truth for the project's principles and goals. Any amendments require a proposal and review process by the core contributors to ensure they align with the project's vision.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-29 | **Last Amended**: 2025-12-29

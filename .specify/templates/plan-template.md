@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   **Hands-On First:** Does the plan prioritize practical, buildable examples?
+*   **Beginner-Friendly:** Is the proposed solution accessible to the target audience?
+*   **Clarity and Simplicity:** Is the design straightforward and easy to understand?
+*   **Modular and Extensible:** Is the architecture modular and allow for future expansion?
+*   **Open Source Commitment:** Are all new dependencies compatible with the project's open-source license?
+*   **Tech Stack Adherence:** Does the plan use Docusaurus and Python as specified?
 
 ## Project Structure
 
